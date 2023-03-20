@@ -1,0 +1,253 @@
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>MINI-ME</title>
+    <!-- <meta name="description" content="Portfolio Template for Developer" /> -->
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/popup.css"/>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <span class="header__logo-sub"></span><a href="" >
+            <img src="./assets/png/MainLogo1.png" width="200px"  height="55" 
+            style="padding: 0; margin: 0;"/>
+          </a>
+        </div>
+
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./aboutme.html" class="header__link">About </a>
+            </li>
+            
+            <li class="header__link-wrapper">
+              <a href="./projectpage.html" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./pages/blog.html" class="header__link">
+                Blogs
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./contactme.html" class="header__link"> Contact </a>
+            </li>
+            
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href=""> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./aboutme.html"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./projectpage.html"> Projects </a>
+            </li>
+            <li class="header__sm-menu-link">
+              <a href="./pages/blog.html"> Blogs </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./contactme.html"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Welcome to my website !!!!</h1>
+        <div class="home-hero__info">
+          <h1 class="fs-2">
+            <div class="container">
+        <br/>
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-10 col-lg-8">
+                <form class="card card-sm" style="border-radius: 10px; background-color: #ffffff47;">
+                  <div class="card-body row no-gutters align-items-center">
+                    <div class="col-auto">
+                      
+                    </div>
+                    <div class="col" 
+                         style="padding: 10px 13px 10px -1px;
+                         margin: 10px 5px 10px 5px;" >
+                      <input 
+                          class="form-control form-control-lg form-control-borderless" 
+                          type="search" placeholder="Search here...." 
+                          list="dataListOption"
+                          style="height: 35px;">  
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </h1>
+          </div>
+        <div class="home-hero__cta">
+          <a  class="btn btn--bg" id="resume_button" 
+              href="./assets/Roshan-Nyaupane-cv.pdf"
+              target="_blank">
+                    My resume
+          </a>
+          <a  href="./resumeForm/root/index.html"
+                type="button"
+                id="resume_build_button"
+                class="btn btn--bg" 
+                data-mdb-toggle="modal"
+                data-mdb-target="#exampleModal"
+                data-mdb-whatever="@mdo">
+                Build your Resume 
+        </a>
+          
+        
+
+        </div>
+        <div class="home-hero__cta" id="gamePopup">
+          <img src="./assets/png/TicTacToe.png" 
+               alt="..." 
+               class="img-thumbnail"
+                id="gameImg"><br>
+          <a 
+                  href="./ticTacToeTest/ticTacToe.html"
+                  class="btn btn--bg" 
+                  id="gameBtn"
+                  value = "Test the alert">Play</a>
+          
+        </div>  
+      </div>
+    </section>
+ 
+<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="about__content-title">
+      <span >Get in touch!!</span>
+    </div>
+  </section>
+
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <div class="row mt-3">
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <h2 class="text-uppercase fw-bold mb-4">
+            <i ></i>Donate <br>
+            <span style="font-size: 0.9rem;">(You can make a tax deductive donation here.)</span> <br>
+          </h2>
+          <p>
+            E-sewa || <a href="" style="color:#6c757d" >+ 977 - 9840953005</a>
+            <br> Khalti || <a href="" style="color:#6c757d" >+ 977 - 9840953005</a><br>
+          </p>
+        </div>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h2 class="heading heading-sm main-footer__heading-sm">
+            <span>Contact</span>
+          </h2>
+          <p><i class="fas fa-home me-3"></i> Kathmandu-30 ,Ratopul</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            neupaner590@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> 
+            <a href="" style="color:#6c757d" >+ 977 - 9840953005</a></p>
+          <p><i class="fas fa-phone me-3"></i>
+            <a href="" style="color:#6c757d" > + 977 - 9821583327</a></p>
+          <p><i class="fas fa-print me-3"></i> 
+            <a href="" style="color:#6c757d" > + 977 - 9882051995 </a></p>
+        </div>
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h2 class="heading heading-sm main-footer__heading-sm">
+            <span>Social</span>
+          </h2>
+          <div class="main-footer__social-cont">
+            <a target="_blank" rel="noreferrer" 
+               href="https://www.linkedin.com/in/roshan-nyaupane-a6b8ba228/">
+              <img
+                class="main-footer__icon"
+                src="./assets/png/linkedin-ico.png"
+                alt="icon"
+              />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/RNyaupane">
+              <img
+                class="main-footer__icon"
+                src="./assets/png/github-ico.png"
+                alt="icon"
+              />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://twitter.com/Enapuayn">
+              <img
+                class="main-footer__icon"
+                src="./assets/png/twitter-ico.png"
+                alt="icon"
+              />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/profile.php?id=100082724087904">
+              <img
+                class="main-footer__icon"
+                src="./assets/png/fb-icon.png"
+                alt="icon"
+              />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/nyaupane_roshan/">
+              <img
+                class="main-footer__icon main-footer__icon--mr-none"
+                src="./assets/png/insta-ico.png"
+                alt="icon"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2023 Copyright:
+    <a class="text-reset fw-bold" href="">roshan-nyaupane-a6b8ba228</a>
+  </div>  
+</footer>
+  
+    <script src="./index.js" ></script>
+  </body>
+</html>

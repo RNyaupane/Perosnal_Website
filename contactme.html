@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>MINI-ME</title>
+    <!-- <meta name="description" content="Portfolio Template for Developer" /> -->
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/popup.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <!-- <div class="header__logo-img-cont">
+            <img
+              src=""
+              alt=""
+              class="header__logo-img"
+            />
+          </div> -->
+          <span class="header__logo-sub"></span><a href=" ./index.html" >
+            <img src="./assets/png/MainLogo1.png" width="200" height="55"/>
+          </a>
+        </div>
+
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./aboutme.html" class="header__link">About </a>
+            </li>
+            
+            <li class="header__link-wrapper">
+              <a href="./projectpage.html" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./pages/blog.html" class="header__link">
+                Blogs
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="" class="header__link"> Contact </a>
+            </li>
+            
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./aboutme.html"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./projectpage.html"> Projects </a>
+            </li>
+            <li class="header__sm-menu-link">
+              <a href="./pages/blog.html"> Blogs </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href=""> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt"
+                style="color: rgba(0, 0, 0, 0.666);
+                      font-size: 50px; font-weight: bold;">Contact me</span>
+        </h2>
+        <div class="contact__form-container">
+          <form action="#" class="contact__form" name="form1" >
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="name">Full Name</label>
+              <input
+                required
+                placeholder="Enter Your Full Name"
+                type="text"
+                class="contact__form-input"
+                name="name"
+                id="name"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="age">Age</label>
+              <input
+                required
+                placeholder="Enter Your Age"
+                type="text"
+                class="contact__form-input"
+                name="name"
+                id="name"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="email">Email</label>
+              <input
+                required
+                placeholder="Enter Your Email"
+                type="text"
+                class="contact__form-input"
+                name="email"
+                id="email"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="message">Message</label>
+              <textarea
+                aria-required="true"
+                cols="30"
+                rows="10"
+                class="contact__form-input"
+                placeholder="Enter Your Message"
+                name="message"
+                id="message"
+              ></textarea>
+            </div>
+            
+            <button 
+                type="submit" 
+                class="btn btn-primary btn-lg" 
+                id="contact_submit"
+                style="display: block;
+                width: 100%; background-color: rgba(51, 51, 51, 0.8);
+                height: 50px;
+                color: rgb(255, 255, 255);margin-top: 0;
+                border: none;
+                font-weight: bold; font-size: 1.9rem">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+ 
+<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="about__content-title">
+      <span >Get in touch!!</span>
+    </div>
+  </section>
+
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <div class="row mt-3">
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <h2 class="text-uppercase fw-bold mb-4">
+            <i ></i>Donate <br>
+            <span style="font-size: 0.9rem;">(You can make a tax deductive donation here.)</span> <br>
+          </h2>
+          <p>
+            E-sewa || <a href="" style="color:#6c757d" >+ 977 - 9840953005</a>
+            <br> Khalti || <a href="" style="color:#6c757d" >+ 977 - 9840953005</a><br>
+          </p>
+        </div>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h2 class="heading heading-sm main-footer__heading-sm">
+            <span>Contact</span>
+          </h2>
+          <p><i class="fas fa-home me-3"></i> Kathmandu-30 ,Ratopul</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            neupaner590@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> 
+            <a href="" style="color:#6c757d" >+ 977 - 9840953005</a></p>
+          <p><i class="fas fa-phone me-3"></i>
+            <a href="" style="color:#6c757d" > + 977 - 9821583327</a></p>
+          <p><i class="fas fa-print me-3"></i> 
+            <a href="" style="color:#6c757d" > + 977 - 9882051995 </a></p>
+        </div>
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h2 class="heading heading-sm main-footer__heading-sm">
+            <span>Social</span>
+          </h2>
+          <div class="main-footer__social-cont">
+            <a target="_blank" rel="noreferrer" 
+               href="https://www.linkedin.com/in/roshan-nyaupane-a6b8ba228/">
+              <img
+                class="main-footer__icon"
+                src="./assets/png/linkedin-ico.png"
+                alt="icon"
+              />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/RNyaupane">
+              <img
+                class="main-footer__icon"
+                src="./assets/png/github-ico.png"
+                alt="icon"
+              />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://twitter.com/Enapuayn">
+              <img
+                class="main-footer__icon"
+                src="./assets/png/twitter-ico.png"
+                alt="icon"
+              />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/profile.php?id=100082724087904">
+              <img
+                class="main-footer__icon"
+                src="./assets/png/fb-icon.png"
+                alt="icon"
+              />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/nyaupane_roshan/">
+              <img
+                class="main-footer__icon main-footer__icon--mr-none"
+                src="./assets/png/insta-ico.png"
+                alt="icon"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2023 Copyright:
+    <a class="text-reset fw-bold" href="">roshan-nyaupane-a6b8ba228</a>
+  </div>  
+</footer>
+
+    <script src="./index.js" ></script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .card-header {
+    font-size: 1.5rem;
+  }
+  
+  .card-body {
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    margin: 10px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .card-body {
+      flex-wrap: wrap;
+    }
+  }
+  

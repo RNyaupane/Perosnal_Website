@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" type="text/css" href="./ticTacToe.css" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script src="//unpkg.com/bootstrap-select-country@4.0.0/dist/js/bootstrap-select-country.min.js"></script>
+  </head>
+  <body>
+    
+    <h1 class="animate-charcter" style="text-align: center;">
+      Tic-Tac-Toe
+      <a href="../index.html">
+        <img
+          src="../assets/jpeg/icon-close-button-vector-20409198.jpg"
+          id="close-btn"
+      
+        />
+      </a>
+    </h1>
+    
+    <section class="home-hero">
+      <!-- <div>
+       <div class="alert success">
+         <span class="closebtn">&times;</span>  
+          Congratulation
+       </div>
+     </div> -->
+    
+    <form id="form" style="display: block;">
+      <input type="text" id="firstPlayer" placeholder="First player name" />
+      <input type="text" id="secondPlayer" placeholder="Second player name" />
+    </form>
+    <div class="buttons">
+      <button id="submit" class="btn btn--bg">Submit</button>
+      <button id="reset" class="btn btn--bg">Reset</button>
+    </div>
+
+    <div id="message"></div>
+
+    <div id="board">
+      <div class="box" id="box0"></div>
+      <div class="box" id="box1"></div>
+      <div class="box" id="box2"></div>
+      <div class="box" id="box3"></div>
+      <div class="box" id="box4"></div>
+      <div class="box" id="box5"></div>
+      <div class="box" id="box6"></div>
+      <div class="box" id="box7"></div>
+      <div class="box" id="box8"></div>
+    </div>
+    
+    </section>
+
+
+      <footer class="text-center text-lg-start bg-light text-muted">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          <!-- Left -->
+          <div class="about__content-title">
+            <span >Get in touch!!</span>
+          </div>
+        </section>
+      
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <div class="row mt-3">
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <h2 class="text-uppercase fw-bold mb-4">
+                  <i ></i>Donate <br>
+                  <span style="font-size: 0.9rem;">(You can make a tax deductive donation here.)</span> <br>
+                </h2>
+                <p>
+                  E-sewa || <a href="" style="color:#6c757d" >+ 977 - 9840953005</a>
+                  <br> Khalti || <a href="" style="color:#6c757d" >+ 977 - 9840953005</a><br>
+                </p>
+              </div>
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h2 class="heading heading-sm main-footer__heading-sm">
+                  <span>Contact</span>
+                </h2>
+                <p><i class="fas fa-home me-3"></i> Kathmandu-30 ,Ratopul</p>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  neupaner590@gmail.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i> 
+                  <a href="" style="color:#6c757d" >+ 977 - 9840953005</a></p>
+                <p><i class="fas fa-phone me-3"></i>
+                  <a href="" style="color:#6c757d" > + 977 - 9821583327</a></p>
+                <p><i class="fas fa-print me-3"></i> 
+                  <a href="" style="color:#6c757d" > + 977 - 9882051995 </a></p>
+              </div>
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <h2 class="heading heading-sm main-footer__heading-sm">
+                  <span>Social</span>
+                </h2>
+                <div class="main-footer__social-cont">
+                  <a target="_blank" rel="noreferrer" 
+                     href="https://www.linkedin.com/in/roshan-nyaupane-a6b8ba228/">
+                    <img
+                      class="main-footer__icon"
+                      src="../assets/png/linkedin-ico.png"
+                      alt="icon"
+                    />
+                  </a>
+                  <a target="_blank" rel="noreferrer" href="https://github.com/RNyaupane">
+                    <img
+                      class="main-footer__icon"
+                      src="../assets/png/github-ico.png"
+                      alt="icon"
+                    />
+                  </a>
+                  <a target="_blank" rel="noreferrer" href="https://twitter.com/Enapuayn">
+                    <img
+                      class="main-footer__icon"
+                      src="../assets/png/twitter-ico.png"
+                      alt="icon"
+                    />
+                  </a>
+                  <a target="_blank" rel="noreferrer" href="https://www.facebook.com/profile.php?id=100082724087904">
+                    <img
+                      class="main-footer__icon"
+                      src="../assets/png/fb-icon.png"
+                      alt="icon"
+                    />
+                  </a>
+                  <a target="_blank" rel="noreferrer" href="https://www.instagram.com/nyaupane_roshan/">
+                    <img
+                      class="main-footer__icon main-footer__icon--mr-none"
+                      src="../assets/png/insta-ico.png"
+                      alt="icon"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2023 Copyright:
+          <a class="text-reset fw-bold" href="">roshan-nyaupane-a6b8ba228</a>
+        </div>  
+      </footer>
+    <script src="./ticTacToe.js"></script>
+  </body>
+</html>
