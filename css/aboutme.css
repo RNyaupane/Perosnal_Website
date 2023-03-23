@@ -1,6 +1,33 @@
 .home-hero{
 }
-
+.about {
+  background: #f2f2f2; }
+  .about__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10rem; }
+    @media only screen and (max-width: 56.25em) {
+      .about__content {
+        grid-template-columns: 1fr;
+        grid-gap: 8rem; } }
+    .about__content-title {
+      font-weight: 700;
+      font-size: 2.8rem;
+      margin-bottom: 3rem; }
+      @media only screen and (max-width: 37.5em) {
+        .about__content-title {
+          font-size: 2.4rem; } }
+    .about__content-details-para {
+      font-size: 1.8rem;
+      color: grey;
+      max-width: 60rem;
+      line-height: 1.7;
+      margin-bottom: 1rem; }
+      .about__content-details-para--hl {
+        font-weight: 700;
+        margin: 0 3px; }
+      .about__content-details-para:last-child {
+        margin-bottom: 4rem; }
 
 #logo_img{
   width: 200px;
