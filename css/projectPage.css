@@ -39,7 +39,12 @@
       margin-top:150px;
   }
   p{ font-size: 1.2rem;}
-  @media only screen and (max-width: 600px) {
+
+  .footer_links{
+    font-size: 1rem;
+  }
+
+  @media only screen and (max-width: 900px) {
     h1{font-size: 14px;}
     p{font-size: 12px;}
   }
