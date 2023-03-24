@@ -1,287 +1,150 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>MINI-ME</title>
-
-    <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="./css/blog.css" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" type="text/css" href="./ticTacToe.css" />
+    <link rel="stylesheet" href="../css/style.css">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-    />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
-      rel="stylesheet"
-    />
+    <script src="//unpkg.com/bootstrap-select-country@4.0.0/dist/js/bootstrap-select-country.min.js"></script>
   </head>
   <body>
-    <header class="header">
-      <div class="header__content">
-        <div class="header__logo-container">
-
-          <span class="header__logo-sub"></span><a href="../index.html" >
-             <img src="../assets/png/MainLogo2.png" width="200" height="55"/>
-           </a>
-        </div>
-
-        <div class="header__main">
-          <ul class="header__links">
-            <li class="header__link-wrapper">
-              <a href="../index.html" class="header__link"> Home </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="../aboutme.html" class="header__link">About </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="../projectpage.html" class="header__link">
-                Projects
-              </a>
-            </li>
-            <li class="header__link-wrapper">
-                <a href="" class="header__link">
-                  Blogs
-                </a>
-              </li>
-            <li class="header__link-wrapper">
-              <a href="../contactme.html" class="header__link"> Contact </a>
-            </li>
-          </ul>
-          <div class="header__main-ham-menu-cont">
-            <img
-              src="../assets/svg/ham-menu.svg"
-              alt="hamburger menu"
-              class="header__main-ham-menu"
-            />
-            <img
-              src="../assets/svg/ham-menu-close.svg"
-              alt="hamburger menu close"
-              class="header__main-ham-menu-close d-none"
-            />
-          </div>
-        </div>
-      </div>
-      <div class="header__sm-menu">
-        <div class="header__sm-menu-content">
-          <ul class="header__sm-menu-links">
-            <li class="header__sm-menu-link">
-              <a href="../index.html"> Home </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="../aboutme.html"> About </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="../projectpage.html"> Projects </a>
-            </li>
-            <li class="header__sm-menu-link">
-              <a href=""> Blogs </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="../contactme.html"> Contact </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </header>
-   <br><br><br><br><br><br><br><br>
-    <section id="gallery">
-        <div class="container">
-          <div class="row">
-
-          <div class="col-lg-4 mb-4">
-            <div class="card">
-                <img src="../assets/jpeg/Blog1.jpg" alt="" class="card-img-top"
-                style="height:100%0px;">
-                <div class="card-body">
-                  <h5 class="card-title">Langtang Mountain</h5>
-                  <p class="card-text">The Langtang valley lies in the Rasuwa district of the Bagmati Province in Nepal. It is the highest peak of the Langtang Himal Range, 
-                    which is a subrange of the Nepalese Himalayas, southwest of the Eight-thousander Shishapangma.
-                    </p>
-                 <a href="" class="btn btn-outline-success btn-sm">Read More</a>
-                  <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
-                </div>
-                </div>
-              </div>
-        <div class="col-lg-4 mb-4">
-        <div class="card">
-            <img src="../assets/jpeg/Blog2.jpg" alt="" class="card-img-top"
-            style="height:100%0px;">
-            <div class="card-body">
-              <h5 class="card-title">Sindhuli</h5>
-              <p class="card-text">Sindhuli Gadhi is an historical fort and tourist attraction in central Nepal.
-                Sindhuli Gadhi is famous for the battle between the then Gorkha Army and the British troop headed 
-                by Captain Kinloch. It is situated 20 km above the Sindhuli bazaar which is also the capital of the Sindhuli district.</p>
-             <a href="" class="btn btn-outline-success btn-sm">Read More</a>
-              <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
-            </div>
-            </div>
-          </div>
-          <div class="col-lg-4 mb-4">
-          <div class="card">
-            <img src="../assets/jpeg/Blog3.jpg" alt="" class="card-img-top">
-            <div class="card-body">
-              <h5 class="card-title">Classroom</h5>
-              <p class="card-text">When the sun has set, no candle can replace it." "Sunsets, like childhood,
-                                   are viewed with wonder not just because they are beautiful but because they are fleeting."
-                                   "Every sunset brings the promise of a new dawn." "When the sun is setting, leave whatever you are doing and watch it.</p>
-             <a href="" class="btn btn-outline-success btn-sm">Read More</a>
-              <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
-            </div>
-           </div>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-        <div class="col-lg-4 mb-4">
-        <div class="card">
-          <img src="../assets/jpeg/Blog4.jpg" alt="" class="card-img-top"
-          style="height: 100%;">
-          <div class="card-body">
-            <h5 class="card-title">Kyanjin re</h5>
-            <p class="card-text">Kyanjin Ri is a small hill by Himalayan standards that sits just to the
-              north east of Kyanjin Gumba (3830m). Its well worth the 3 to 5 hours it will take to get to
-               the summit to see the fantastic views of the upper Langtang Valley and surrounding peaks and 
-               glaciers.</p>
-           <a href="" class="btn btn-outline-success btn-sm" >Read More</a>
-            <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
-          </div>
-         </div>
-        </div>
-      <div class="col-lg-4 mb-4">
-      <div class="card">
-          <img src="../assets/jpeg/Blog5.jpg" alt="" class="card-img-top">
-          <div class="card-body">
-            <h5 class="card-title">Apex College</h5>
-            <p class="card-text">Apex College is affilaited to Pokhara University. 
-              It provides top class education for knowledge and skills acquisition 
-              to match up with the expections of the emerging global market. 
-              It offers Bachelor of Computer Information System, BBA, BBA-BI, BBA-TT.</p>
-           <a href="" class="btn btn-outline-success btn-sm">Read More</a>
-            <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
-          </div>
-          </div>
-        </div>
-        <div class="col-lg-4 mb-4">
-        <div class="card">
-          <img src="../assets/jpeg/Blog6.jpg" alt="" class="card-img-top">
-          <div class="card-body">
-            <h5 class="card-title">Shangaa</h5>
-            <p class="card-text">Kailashnath Mahadev Statue (Nepali: कैलाशनाथ महादेव) is the second tallest Shiva 
-              statue in the world. It is currently the fifth tallest Hindu deity statue.It is situated in Sanga,
-               Kavrepalanchok District in Nepal, about 20km from Kathmandu.</p>
-           <a href="" class="btn btn-outline-success btn-sm">Read More</a>
-            <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
-          </div>
-         </div>
-        </div>
-      </div>
-    </div>
-      </section>
-      
     
+    <h1 class="animate-charcter" style="text-align: center;">
+      Tic-Tac-Toe
+      <a href="../index.html">
+        <img
+          src="../assets/jpeg/icon-close-button-vector-20409198.jpg"
+          id="close-btn"
+      
+        />
+      </a>
+    </h1>
+    
+    <section class="home-hero">
+      <!-- <div>
+       <div class="alert success">
+         <span class="closebtn">&times;</span>  
+          Congratulation
+       </div>
+     </div> -->
+    
+    <form id="form" style="display: block;">
+      <input type="text" id="firstPlayer" placeholder="First player name" />
+      <input type="text" id="secondPlayer" placeholder="Second player name" />
+    </form>
+    <div class="buttons">
+      <button id="submit" class="btn btn--bg">Submit</button>
+      <button id="reset" class="btn btn--bg">Reset</button>
+    </div>
 
-      <footer id="footer_main" class="text-center text-lg-start bg-light text-muted" style="margin-top: 0;">
-        <section class="" style="background-color: #01392e; ">
-          <div class="container text-center text-md-start mt-5" >
-            <div class="about__content-title" style="color: white; padding-top: 15px;">
-              <span>Get in touch!!</span>
+    <div id="message"></div>
+
+    <div id="board">
+      <div class="box" id="box0"></div>
+      <div class="box" id="box1"></div>
+      <div class="box" id="box2"></div>
+      <div class="box" id="box3"></div>
+      <div class="box" id="box4"></div>
+      <div class="box" id="box5"></div>
+      <div class="box" id="box6"></div>
+      <div class="box" id="box7"></div>
+      <div class="box" id="box8"></div>
+    </div>
+    
+    </section>
+
+
+    <footer id="footer_main" class="text-center text-lg-start bg-light text-muted" style="margin-top: 0;">
+      <section class="" style="background-color: #01392e; ">
+        <div class="container text-center text-md-start mt-5" >
+          <div class="about__content-title" style="color: white; padding-top: 15px;">
+            <span>Get in touch!!</span>
+          </div>
+          <div class="row mt-3" style="color: rgb(236, 236, 236);">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h2 class="text-uppercase fw-bold mb-4">
+                <i ></i>Donate <br>
+                <span style="font-size: 0.9rem;">(You can make a tax deductive donation here.)</span> <br>
+              </h2>
+              <p>
+                E-sewa || <a href="" style="color:rgb(0, 238, 183)">+ 977 - 9840953005</a>
+                <br> Khalti || <a href="" style="color:rgb(0, 238, 183)">+ 977 - 9840953005</a><br>
+              </p>
             </div>
-            <div class="row mt-3" style="color: rgb(236, 236, 236);">
-              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                <h2 class="text-uppercase fw-bold mb-4">
-                  <i ></i>Donate <br>
-                  <span style="font-size: 0.9rem;">(You can make a tax deductive donation here.)</span> <br>
-                </h2>
-                <p>
-                  E-sewa || <a href="" style="color:rgb(0, 238, 183)">+ 977 - 9840953005</a>
-                  <br> Khalti || <a href="" style="color:rgb(0, 238, 183)">+ 977 - 9840953005</a><br>
-                </p>
-              </div>
-              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                <h2 class="heading heading-sm main-footer__heading-sm">
-                  <span>Contact</span>
-                </h2>
-                <p><i class="fas fa-home me-3"></i> Kathmandu-30 ,Ratopul</p>
-                <p>
-                  <i class="fas fa-envelope me-3"></i>
-                  neupaner590@gmail.com
-                </p>
-                <p><i class="fas fa-phone me-3"></i> 
-                  <a href="" style="color:rgb(0, 238, 183)">+ 977 - 9840953005</a></p>
-                <p><i class="fas fa-phone me-3"></i>
-                  <a href="" style="color:rgb(0, 238, 183)"> + 977 - 9821583327</a></p>
-                <p><i class="fas fa-print me-3"></i> 
-                  <a href="" style="color:rgb(0, 238, 183)"> + 977 - 9882051995 </a></p>
-              </div>
-              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                <h2 class="heading heading-sm main-footer__heading-sm">
-                  <span>Social</span>
-                </h2>
-                <div class="main-footer__social-cont">
-                  <a target="_blank" rel="noreferrer" 
-                     href="https://www.linkedin.com/in/roshan-nyaupane-a6b8ba228/">
-                    <img
-                      class="main-footer__icon"
-                      src="../assets/png/linkedin-ico.png"
-                      alt="icon"
-                    />
-                  </a>
-                  <a target="_blank" rel="noreferrer" href="https://github.com/RNyaupane">
-                    <img
-                      class="main-footer__icon"
-                      src="../assets/png/github-ico.png"
-                      alt="icon"
-                      style="border-radius: 50%;"
-                    />
-                  </a>
-                  <a target="_blank" rel="noreferrer" href="https://twitter.com/Enapuayn">
-                    <img
-                      class="main-footer__icon"
-                      src="../assets/png/twitter-ico.png"
-                      alt="icon"
-                    />
-                  </a>
-                  <a target="_blank" rel="noreferrer" href="https://www.facebook.com/profile.php?id=100082724087904">
-                    <img
-                      class="main-footer__icon"
-                      src="../assets/png/fb-icon.png"
-                      alt="icon"
-                    />
-                  </a>
-                  <a target="_blank" rel="noreferrer" href="https://www.instagram.com/nyaupane_roshan/">
-                    <img
-                      class="main-footer__icon main-footer__icon--mr-none"
-                      src="../assets/png/insta-ico.png"
-                      alt="icon"
-                    />
-                  </a>
-                </div>
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h2 class="heading heading-sm main-footer__heading-sm">
+                <span>Contact</span>
+              </h2>
+              <p><i class="fas fa-home me-3"></i> Kathmandu-30 ,Ratopul</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                neupaner590@gmail.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i> 
+                <a href="" style="color:rgb(0, 238, 183)">+ 977 - 9840953005</a></p>
+              <p><i class="fas fa-phone me-3"></i>
+                <a href="" style="color:rgb(0, 238, 183)"> + 977 - 9821583327</a></p>
+              <p><i class="fas fa-print me-3"></i> 
+                <a href="" style="color:rgb(0, 238, 183)"> + 977 - 9882051995 </a></p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h2 class="heading heading-sm main-footer__heading-sm">
+                <span>Social</span>
+              </h2>
+              <div class="main-footer__social-cont">
+                <a target="_blank" rel="noreferrer" 
+                   href="https://www.linkedin.com/in/roshan-nyaupane-a6b8ba228/">
+                  <img
+                    class="main-footer__icon"
+                    src="../assets/png/linkedin-ico.png"
+                    alt="icon"
+                  />
+                </a>
+                <a target="_blank" rel="noreferrer" href="https://github.com/RNyaupane">
+                  <img
+                    class="main-footer__icon"
+                    src="../assets/png/github-ico.png"
+                    alt="icon"
+                    style="border-radius: 50%;"
+                  />
+                </a>
+                <a target="_blank" rel="noreferrer" href="https://twitter.com/Enapuayn">
+                  <img
+                    class="main-footer__icon"
+                    src="../assets/png/twitter-ico.png"
+                    alt="icon"
+                  />
+                </a>
+                <a target="_blank" rel="noreferrer" href="https://www.facebook.com/profile.php?id=100082724087904">
+                  <img
+                    class="main-footer__icon"
+                    src="../assets/png/fb-icon.png"
+                    alt="icon"
+                  />
+                </a>
+                <a target="_blank" rel="noreferrer" href="https://www.instagram.com/nyaupane_roshan/">
+                  <img
+                    class="main-footer__icon main-footer__icon--mr-none"
+                    src="../assets/png/insta-ico.png"
+                    alt="icon"
+                  />
+                </a>
               </div>
             </div>
           </div>
-        </section>
-      
-        <div class="text-center p-4" style="background-color: #02483a; color: aliceblue;">
-          © 2023 Copyright:
-          <a class="text-reset fw-bold" href="">roshan-nyaupane-a6b8ba228</a>
-        </div>  
-      </footer>
-
-    <script src="../index.js"></script>
+        </div>
+      </section>
+    
+      <div class="text-center p-4" style="background-color: #02483a; color: aliceblue;">
+        © 2023 Copyright:
+        <a class="text-reset fw-bold" href="">roshan-nyaupane-a6b8ba228</a>
+      </div>  
+    </footer>
+    <script src="./ticTacToe.js"></script>
   </body>
 </html>
